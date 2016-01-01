@@ -1,6 +1,8 @@
 Slim3-controller
 =================
 
+[![Build Status](https://travis-ci.org/brtriver/slim3-controller.svg)](https://travis-ci.org/brtriver/slim3-controller)
+
 Anonymous controller and trait for Slim3 with PHP7.
 
 Requirements
