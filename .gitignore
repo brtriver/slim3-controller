@@ -1,0 +1,9 @@
+/vendor/*
+/examples/vendor/*
+/.idea/*
+/.DS_Store
+/phpunit.phar
+/composer.phar
+/phpunit.xml
+/composer.lock
+/Gemfile.lock
