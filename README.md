@@ -39,12 +39,12 @@ $app->get('/hello/{name}', new class($app) extends Controller {
 });
 ```
 
-* Controller class has these methods and variables.
+* Controller class has these methods and class properties.
   * methods:
     * action($args): you should write your controller logic in this method.
     * render($output): helper method to render the $output with 200 status
 	* render404($output): helper method to render the $output with 404 status
-  * variables.
+  * properties:
     * $this->request
     * $this->response
     * $this->app
