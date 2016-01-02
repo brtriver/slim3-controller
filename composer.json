@@ -1,6 +1,6 @@
 {
     "name": "brtriver/slim3-controller",
-    "description": "Anymous controller class for Slim3",
+    "description": "Anonymous controller and trait class for Slim3",
     "license": "MIT",
     "authors": [
         {
