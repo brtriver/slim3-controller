@@ -4,6 +4,10 @@ Slim3-controller
 [![Build Status](https://travis-ci.org/brtriver/slim3-controller.svg)](https://travis-ci.org/brtriver/slim3-controller)
 
 Anonymous controller and trait for Slim3 with PHP7.
+We can use anonymous classes in PHP7. So I use anonymous classes instead of anonymous functions. Slim2 now supports PSR-7 interfaces for its Request and Response objects. And Slim3 uses extends objects, and use it in your anonymous functions.
+
+But we use Request and Response object directly, so I try to use anonymous classes to write controller action logic and it is to be readability.
+[read more](http://brtriver.hatenablog.com/entries/2016/01/02)
 
 Requirements
 ------------
