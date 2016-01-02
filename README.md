@@ -14,6 +14,8 @@ Requirements
 Install
 --------
 
+install via composer
+
 ```bash
 composer require brtriver/slim3-controller
 ```
@@ -21,7 +23,9 @@ composer require brtriver/slim3-controller
 Usage
 -------
 
-see below code.
+you can read [example code](https://github.com/brtriver/slim3-controller/blob/master/examples/web/index.php).
+
+sample code is blow:
 
 ```php
 use Brtriver\Controller\Controller;
@@ -37,9 +41,9 @@ $app->get('/hello/{name}', new class($app) extends Controller {
 
 * Controller class has these methods and variables.
   * methods:
-    * action($args): write your controller code.
-    * render($output): render the $output with 200 status
-	* render404($output): render the $output with 404 status
+    * action($args): you should write your controller logic in this method.
+    * render($output): helper method to render the $output with 200 status
+	* render404($output): helper method to render the $output with 404 status
   * variables.
     * $this->request
     * $this->response
